@@ -1,0 +1,37 @@
+@font-face{
+    font-family:Promps;
+    src: url('../fonts/Prompt-Light.ttf');
+}
+* {
+    font-family:Promps;
+}
+body {
+    width:100%;
+    background: #f3f1f0;
+    height: 100%;
+    
+}
+.underline-orange{
+    background-color: orange;
+    width: 20%;
+    height: 5px;
+    content: '';
+    margin: 0 auto;
+}
+.box-content{
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.content-text{
+    text-align: left;
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+}
+.content-text span{
+    line-height: 2rem;
+}
+.img-content{
+    width: 75%;
+    border-radius: 10px;
+}
