@@ -1,24 +1,8 @@
 window.onload = pageLoad;
 function pageLoad() {
-    handleActiveNavlink();
     handleToggleMenuNavbar();
 }
-function handleActiveNavlink() {
 
-    let elementLink = document.getElementById('nav-item-link');
-    let link = elementLink.getElementsByClassName("link-item");
-    for (let idx = 0; idx < link.length; idx++) {
-        link[idx].addEventListener("click", function () {
-            let currentPath = document.getElementsByClassName("active");
-            if (currentPath.length > 0) {
-                currentPath[0].className = currentPath[0].className.replace(" active", "");
-            } else {
-                this.className += " active";
-            }
-        })
-    }
-
-}
 function handleToggleMenuNavbar() {
     let iconToggle = document.getElementById('hamburger');
     let styleIconToggleAnimate = document.getElementsByClassName('container-hamburger');
