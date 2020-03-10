@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Blogger</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='main.js'></script>
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+
+<body>
+	<h1 class="header-title">
+		<span>
+			Blogs
+		</span> 
+	</h1>
+	<div class="container-body">
+		<a href="../../index.html" class="button-back-to-home">กลับสู่หน้าหลัก</a>
+		<div class="item">
+			<div id="post1"></div>
+			<div id="reply1"></div>
+			<div id="reply2"></div>
+		</div>
+		<textarea name="text1" id="text1" onchange="InputMessage(this.value)"></textarea>
+	</div>
+	<br />
+	<div class="container-button">
+		<div>
+
+			<button class="btn-1" type="button" onclick="postFunction()">Post</button>
+		</div>
+		<div>
+			<button class="btn-2" type="button" onclick="clearFunction()">Clear</button>
+		</div>
+	</div>
+
+</body>
+
+</html>
