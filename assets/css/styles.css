@@ -25,6 +25,19 @@
     text-decoration: none;
     transition: .5s ease-in;
 }
+.button-go-to-assignment{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+    margin:5px auto;
+    padding: 5px 5px;
+    text-align: center;
+    color: #fff;
+    background-color: orange;
+    text-decoration: none;
+    transition: .5s ease-in;
+}
 .button-back-to-home:hover{
     transform: translateY(-1px);
     -webkit-box-shadow: 7px 13px 20px -15px rgba(130,130,130,1);
@@ -606,6 +619,9 @@ text-align: center;
     }
     .menu-item{
         padding: 30px 0;
+    }
+    .button-go-to-assignment {
+        font-size: 15px;
     }
 }
 
