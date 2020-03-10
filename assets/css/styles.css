@@ -13,6 +13,23 @@
 .center{
     text-align: center;
 }
+.button-back-to-home{
+    width: 100%;
+    border-radius: 50px;
+    padding: 15px 15px;
+    margin: 15px auto;
+    text-align: center;
+    color: #fff;
+    background-color: orange;
+    text-decoration: none;
+    transition: .5s ease-in;
+}
+.button-back-to-home:hover{
+    transform: translateY(-1px);
+    -webkit-box-shadow: 7px 13px 20px -15px rgba(130,130,130,1);
+    -moz-box-shadow: 7px 13px 20px -15px rgba(130,130,130,1);
+    box-shadow: 7px 13px 20px -15px rgba(130,130,130,1);
+}
 @font-face{
     font-family:PrompMeduim;
     src: url('../fonts/Prompt-Medium.ttf');
@@ -323,7 +340,27 @@ body {
     width: 42px;
     height: 2px;
 }
+.underline-portfolio{
+    background-color: #333333;
+    width: 85%;
+    margin: 0 auto;
+    height: 1px;
+    margin-bottom: 80px;
+}
 
+.underline-portfolio-header {
+    display: block;
+    background-color: #333333;
+    width: 80%;
+    height: 2px;
+    margin-bottom: 50px;    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-content-last-content-before-footer{
+    text-align: center;
+}
 .portfolio-item:hover .img-description {
     visibility: visible;
     opacity: 1;
