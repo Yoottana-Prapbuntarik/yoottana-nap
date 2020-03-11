@@ -102,17 +102,17 @@
 	color: #000;
 	border: 1px solid #fff;
 }
-
-#footer{
-	margin-top: 50px;
-	height: 50px;
-	padding:20px auto;
-	text-align: center;
-	display: grid;
-	padding-top:20px;
-	grid-column: 1/ span 4;
-	color: #fff;
-	background-color: #030303;
+#footer {
+    margin-top: 50px;
+    height: 50px;
+    padding: 20px auto;
+    text-align: center;
+    display: grid;
+    padding-top: 29px;
+    padding-bottom: 61px;
+    grid-column: 1/ span 4;
+    color: #fff;
+    background-color: #030303;
 }
 .wrapper-img img:hover{
 	transform: scale(1.5);
